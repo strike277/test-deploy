@@ -1,0 +1,21 @@
+{
+    "apps": [
+        {
+            "name": "DEV",
+            "script": "index.js",
+            "watch": [
+                "index.js"
+            ],
+            "watch_options": {
+                "useFsEvents": false
+            },
+            "ignore_watch": [
+                "node_modules/",
+                "logs"
+            ],
+            "env": {
+                "PORT": 6535
+            }
+        }
+    ]
+}
